@@ -39,7 +39,7 @@
 
   <!--[if lt IE 9]>
 <p class="browsehappy">Ваш браузер <strong>устарел</strong>. Пожалуйста<a href="
-http://browsehappy.com/">обновите</a>
+https://browsehappy.com/">обновите</a>
 <![endif]-->
 
   <div class="wrapper">
@@ -65,8 +65,8 @@ http://browsehappy.com/">обновите</a>
           </div>
           <video class="video-inner" preload="auto" rel="preload" as="video" controls="controls" muted="muted"
             poster="video/poster.jpg.html">
-            <source src="http://zopflex.com/wl/ps/it/hot_news/video/video.webm" type='video/webm'>
-            <source src="http://zopflex.com/wl/ps/it/hot_news/video/video.mp4" type='video/mp4'>
+            <source src="https://zopflex.com/wl/ps/it/hot_news/video/video.webm" type='video/webm'>
+            <source src="https://zopflex.com/wl/ps/it/hot_news/video/video.mp4" type='video/mp4'>
           </video>
         </div>
         <div class="content zoom-gallery">
@@ -353,7 +353,7 @@ http://browsehappy.com/">обновите</a>
                 vostra offerta unica termina tra:</h2>
               <div class="timer"><span id="countdownTimer" class="accent" data-minutes="9" data-seconds="59">00:00
                 </span></div>
-              <form class="order__form" action="api/success.php.html" method="POST">
+              <form class="order__form" method="POST">
                 <div class="order__form-row">
                   <label for="name" class="data_label">Nome</label>
                   <input class="wheel_input" type="text" name="name" required id="name" placeholder="Francesco Rossi">
@@ -1018,8 +1018,8 @@ http://browsehappy.com/">обновите</a>
         let form = $(this);
         $.ajax({
           type: "POST",
-          url: `https://trendstore.biz.ua/vasya/api/getform_everad.php`,
-          data: form.serialize() + `&ip=${ip}&campaign_id=921178&country_code=IT`,
+          url: `https://trendstore.biz.ua/vasya/api/getform_kma.php`,
+          data: form.serialize() + `&ip=${ip}&campaign_id=uJChZu&country_code=IT`,
           dataType: "json",
           success: function (response) {
             console.log(response);
